@@ -100,6 +100,7 @@ int main() {
     printf("Comparação de cartas - Atributo: População\n");
     printf("CARTA 01 - São Paulo: %d \n", populacao1);
     printf("CARTA 02 - Recife: %d \n", populacao2);
+    
     if (populacao1 > populacao2){
         printf("Resultado: CARTA 01 - VENCEU!!!!\n");
     }else{
