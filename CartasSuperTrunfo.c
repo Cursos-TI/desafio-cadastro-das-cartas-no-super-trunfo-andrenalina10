@@ -93,6 +93,21 @@ int main() {
     pibpc2 = (float) pib2 / populacao2;
     printf("PIB per capita: %.2f \n", pibpc2);
 
+
+    //Comparação de cartas
+    printf("\n");
+    printf("\n");
+    printf("Comparação de cartas - Atributo: População\n");
+    printf("CARTA 01 - São Paulo: %d \n", populacao1);
+    printf("CARTA 02 - Recife: %d \n", populacao2);
+    if (populacao1 > populacao2){
+        printf("Resultado: CARTA 01 - VENCEU!!!!\n");
+    }else{
+        printf("Resultado: CARTA 02 - VENCEU!!!!\n");
+    } 
+    }
+
+
     
 
 
