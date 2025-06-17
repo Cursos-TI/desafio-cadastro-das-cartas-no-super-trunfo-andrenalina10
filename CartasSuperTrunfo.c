@@ -105,7 +105,7 @@ int main() {
     }else{
         printf("Resultado: CARTA 02 - VENCEU!!!!\n");
     } 
-    }
+
 
 
     
