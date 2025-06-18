@@ -103,30 +103,16 @@ int main() {
     printf("2 . Área\n");
     printf("3 . PIB\n");
     printf("Escolha uma opção: ");
-    scanf("%d", &opcao)
+    scanf("%d", &opcao);
 
     switch (opcao){
         case 1:
             printf("CARTA 01 - São Paulo: %d \n", populacao1);
             printf("CARTA 02 - Recife: %d \n", populacao2);
-            if (populacao1 > populacao2){
-                printf("Resultado: CARTA 01 - VENCEU!!!!\n");
-            }else if (populacao1 < populacao2){
-                printf("Resultado: CARTA 02 - VENCEU!!!!\n");
-            }else{
-                printf("Resultado: Houve um EMPATE!!!!\n");
-            }
             break;
         case 2:
             printf("CARTA 01 - São Paulo: %.2f \n", area1);
             printf("CARTA 02 - Recife: %.2f \n", area2);
-            if (area1 > area2){
-                printf("Resultado: CARTA 01 - VENCEU!!!!\n");
-            }else if (area1 < area2){
-                printf("Resultado: CARTA 02 - VENCEU!!!!\n");
-            }else{
-                printf("Resultado: Houve um EMPATE!!!!\n");
-            }
             break;
         case 3:
             printf("CARTA 01 - São Paulo: %.2f \n", pib1);
@@ -145,3 +131,10 @@ int main() {
 
     return 0;
 }
+if (area1 > area2){
+                printf("Resultado: CARTA 01 - VENCEU!!!!\n");
+            }else if (area1 < area2){
+                printf("Resultado: CARTA 02 - VENCEU!!!!\n");
+            }else{
+                printf("Resultado: Houve um EMPATE!!!!\n");
+            }
