@@ -109,6 +109,13 @@ int main() {
         case 1:
             printf("CARTA 01 - São Paulo: %d \n", populacao1);
             printf("CARTA 02 - Recife: %d \n", populacao2);
+            if (populacao1 > populacao2){
+                printf("Resultado: CARTA 01 - VENCEU!!!!\n");
+            }else if (populacao1 < populacao2){
+                printf("Resultado: CARTA 02 - VENCEU!!!!\n");
+            }else{
+                printf("Resultado: Houve um EMPATE!!!!\n");
+            }
             break;
         case 2:
             printf("CARTA 01 - São Paulo: %.2f \n", area1);
@@ -124,6 +131,13 @@ int main() {
         case 3:
             printf("CARTA 01 - São Paulo: %.2f \n", pib1);
             printf("CARTA 02 - Recife: %.2f \n", pib2);
+            if (pib1 > pib2){
+                printf("Resultado: CARTA 01 - VENCEU!!!!\n");
+            }else if (pib1 < pib2){
+                printf("Resultado: CARTA 02 - VENCEU!!!!\n");
+            }else{
+                printf("Resultado: Houve um EMPATE!!!!\n");
+            }
             break;
         default:
             printf("Opção inválida");
