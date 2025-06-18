@@ -115,7 +115,7 @@ int main() {
                 printf("Resultado: CARTA 02 - VENCEU!!!!\n");
             }else{
                 printf("Resultado: Houve um EMPATE!!!!\n");
-    }
+            }
             break;
         case 2:
             printf("CARTA 01 - São Paulo: %.2f \n", area1);
@@ -126,7 +126,7 @@ int main() {
                 printf("Resultado: CARTA 02 - VENCEU!!!!\n");
             }else{
                 printf("Resultado: Houve um EMPATE!!!!\n");
-    }
+            }
             break;
         case 3:
             printf("CARTA 01 - São Paulo: %.2f \n", pib1);
@@ -134,7 +134,7 @@ int main() {
             break;
         default:
             print("Opção inválida");
-    
+    }
     
 
 
