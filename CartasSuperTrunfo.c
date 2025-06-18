@@ -95,17 +95,46 @@ int main() {
 
 
     //Comparação de cartas
+    int opcao;
     printf("\n");
     printf("\n");
-    printf("Comparação de cartas - Atributo: População\n");
-    printf("CARTA 01 - São Paulo: %d \n", populacao1);
-    printf("CARTA 02 - Recife: %d \n", populacao2);
+    printf("Comparação de cartas - Atributos: \n");
+    printf("1 . População\n");
+    printf("2 . Área\n");
+    printf("3 . PIB\n");
+    printf("Escolha uma opção: ");
+    scanf("%d", &opcao)
+
+    switch (opcao){
+        case 1:
+            printf("CARTA 01 - São Paulo: %d \n", populacao1);
+            printf("CARTA 02 - Recife: %d \n", populacao2);
+            if (populacao1 > populacao2){
+                printf("Resultado: CARTA 01 - VENCEU!!!!\n");
+            }else if (populacao1 < populacao2){
+                printf("Resultado: CARTA 02 - VENCEU!!!!\n");
+            }else{
+                printf("Resultado: Houve um EMPATE!!!!\n");
+    }
+            break;
+        case 2:
+            printf("CARTA 01 - São Paulo: %.2f \n", area1);
+            printf("CARTA 02 - Recife: %.2f \n", area2);
+            break;
+        case3:
+            printf("CARTA 01 - São Paulo: %.2f \n", pib1);
+            printf("CARTA 02 - Recife: %.2f \n", pib2);
+            break;
+        default:
+            print("Opção inválida");
     
     if (populacao1 > populacao2){
         printf("Resultado: CARTA 01 - VENCEU!!!!\n");
-    }else{
+    }else if (populacao1 < populacao2){
         printf("Resultado: CARTA 02 - VENCEU!!!!\n");
-    } 
+    }else{
+        printf("Resultado: Houve um EMPATE!!!!\n");
+    }
 
 
 
