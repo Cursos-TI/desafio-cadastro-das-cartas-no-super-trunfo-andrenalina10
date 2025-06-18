@@ -120,6 +120,13 @@ int main() {
         case 2:
             printf("CARTA 01 - São Paulo: %.2f \n", area1);
             printf("CARTA 02 - Recife: %.2f \n", area2);
+            if (area1 > area2){
+                printf("Resultado: CARTA 01 - VENCEU!!!!\n");
+            }else if (area1 < area2){
+                printf("Resultado: CARTA 02 - VENCEU!!!!\n");
+            }else{
+                printf("Resultado: Houve um EMPATE!!!!\n");
+    }
             break;
         case3:
             printf("CARTA 01 - São Paulo: %.2f \n", pib1);
