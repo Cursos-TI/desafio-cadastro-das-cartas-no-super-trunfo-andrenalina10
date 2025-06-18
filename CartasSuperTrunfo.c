@@ -119,7 +119,7 @@ int main() {
             printf("CARTA 02 - Recife: %.2f \n", pib2);
             break;
         default:
-            print("Opção inválida");
+            printf("Opção inválida");
     }
     
 
