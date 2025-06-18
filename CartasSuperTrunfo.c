@@ -22,7 +22,7 @@ int main() {
     printf("Você deve cadastrar duas cartas\n");
     printf("Cadastre a primeira carta:\n");
     
-    int populacao1, populacao2;
+    int populacao1, populacao2, opcao;
     float area1, area2;
     float pib1, pib2;
     int npt1, npt2;
@@ -95,7 +95,7 @@ int main() {
 
 
     //Comparação de cartas
-    int opcao;
+
     printf("\n");
     printf("\n");
     printf("Comparação de cartas - Atributos: \n");
@@ -128,20 +128,14 @@ int main() {
                 printf("Resultado: Houve um EMPATE!!!!\n");
     }
             break;
-        case3:
+        case 3:
             printf("CARTA 01 - São Paulo: %.2f \n", pib1);
             printf("CARTA 02 - Recife: %.2f \n", pib2);
             break;
         default:
             print("Opção inválida");
     
-    if (populacao1 > populacao2){
-        printf("Resultado: CARTA 01 - VENCEU!!!!\n");
-    }else if (populacao1 < populacao2){
-        printf("Resultado: CARTA 02 - VENCEU!!!!\n");
-    }else{
-        printf("Resultado: Houve um EMPATE!!!!\n");
-    }
+    
 
 
 
